@@ -1,3 +1,7 @@
+// Name: Barkha Kumari
+// PRN: 24070123029
+//Batch: EnTc A1
+
 #include <iostream>
 using namespace std;
 
@@ -17,3 +21,10 @@ cin>>bit_to_be_set;
  int reset= a&~(1<<bit_to_be_reset);
  cout<<"The reset bit= "<<reset<<endl;
 }
+
+/*
+Input the Bit position u want to set: 2
+The set bit= 61
+Input the Bit position u want to reset: 5
+The reset bit= 25
+*/
